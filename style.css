@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    background-color: black;
+}
+
+h1{
+    background-color: rgb(111, 111, 111);
+    color: white;
+    text-align: center;
+}
+h1 span{
+    text-decoration: underline;
+}
+a{
+    color: rgb(194, 192, 192); 
+}
+.card{
+    width: 1000px;
+    height: fit-content;
+    margin: 10px auto;
+    border-radius: 2px;
+    position: relative;
+    padding: 7px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+.thumbnail{
+    width: 170px;
+    height: 100px;
+    position: relative;
+    border-radius: 10px;
+}
+.image img{
+    width: 170px;
+    height: 100px;
+    position: relative;
+    border-radius: 10px;
+}
+.duration{
+    position: absolute;
+    color: white;
+    background-color: black;
+    padding: 3px;
+    border-radius: 6px;
+    bottom: 2px;
+    right: 2px;
+    opacity: 0.8;
+}
+.content{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.title {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 6px;
+    color: white;
+}
+.details{
+    color: gray;
+    font-size: 15px;
+    margin: 6px;
+    margin-top: 12px;
+}
+footer h2{
+    background-color: rgb(111, 111, 111);
+    color: white;
+    text-align: center;
+}
