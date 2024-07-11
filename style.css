@@ -3,6 +3,7 @@ body{
     padding: 0;
     background-color: black;
 }
+
 h1{
     background-color: rgb(111, 111, 111);
     color: white;
@@ -14,17 +15,17 @@ h1 span{
 a{
     color: rgb(194, 192, 192); 
 }
+.container{
+    width: 100%;
+}
 .card{
-    width: 1000px;
     height: fit-content;
     margin: 10px auto;
     border-radius: 2px;
     position: relative;
-    padding: 7px;
+    padding: 10px;
     display: flex;
     gap: 8px;
-    justify-content: center;
-    align-items: center;
 }
 .thumbnail{
     width: 170px;
@@ -56,7 +57,7 @@ a{
 .title {
     font-size: 25px;
     font-weight: 600;
-    margin: 6px;
+    margin: 5px;
     color: white;
 }
 .details{
@@ -69,4 +70,85 @@ footer h2{
     background-color: rgb(111, 111, 111);
     color: white;
     text-align: center;
+}
+@media only screen and (max-width:650px) and (min-width: 405px){
+    .content{
+        height: 105px;
+    }
+    .title{
+    font-size: 15px;
+    line-height: 18px;
+   }
+   .details{
+    font-size: 12px;
+   }
+    .image img{
+        width: 150px;
+        height: 90px;
+    }
+    .duration{
+        padding: 3px;
+        font-size: 13px;
+        bottom: 12px;
+    }
+   h1 , h2{
+    font-size: 15px;
+   }
+}
+@media only screen and (max-width:405px) and (min-width: 376px){
+    .content{
+        height: 105px;
+    }
+    .title{
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: normal;
+   }
+   .details{
+    font-size: 11px;
+   }
+    .image img{
+        width: 145px;
+        height: 90px;
+    }
+    .duration{
+        padding: 3px;
+        font-size: 13px;
+        bottom: 12px;
+    }
+   h1 , h2{
+    font-size: 13px;
+    line-height: 18px;
+   }
+}
+@media only screen and (max-width:376px) and (min-width: 275px){
+    .card{
+        margin: 0px;
+    }
+    .content{
+        height: 105px;
+    }
+    .title{
+        font-size: 12px;
+        line-height: 15px;
+        font-weight: normal;
+        margin-top: 2px;
+   }
+   .details{
+    font-size: 10px;
+    margin-top: 0px;
+   }
+    .image img{
+        width: 130px;
+        height: 80px;
+    }
+    .duration{
+        padding: 3px;
+        font-size: 11px;
+        bottom: 22px;
+    }
+   h1 , h2{
+    font-size: 13px;
+    line-height: 18px;
+   }
 }
